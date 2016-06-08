@@ -23,6 +23,7 @@ java:		openjdk version "1.8.0_91"
 2016.06.08	項目10：rangeよりはenumerateにする
 			項目11：イテレータを並列に処理するにはzipを使う
 			項目12：forとwhileループの後のelseブロックを使うのを避ける
+			項目13：try/except/else/finallyの各ブロックを活用する
 
 ＠＠＠＠＠＠＠＠　コメント　＠＠＠＠＠＠＠＠
 
