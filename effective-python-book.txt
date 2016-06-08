@@ -25,6 +25,10 @@ java:		openjdk version "1.8.0_91"
 			項目12：forとwhileループの後のelseブロックを使うのを避ける
 			項目13：try/except/else/finallyの各ブロックを活用する
 
+2章　関数
+
+2016.06.09	項目14：Noneを返すよりは例外を選ぶ
+
 ＠＠＠＠＠＠＠＠　コメント　＠＠＠＠＠＠＠＠
 
 
