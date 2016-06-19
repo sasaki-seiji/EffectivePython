@@ -19,8 +19,11 @@ import logging
 from pprint import pprint
 from sys import stdout as STDOUT
 
+import sys
+print(sys.version)
 
 # Example 3
+print("\nExample 3 : to_unicode(unicode_or_str) - python 2.7 str is bytes")
 def to_unicode(unicode_or_str):
     if isinstance(unicode_or_str, str):
         value = unicode_or_str.decode('utf-8')
@@ -32,6 +35,7 @@ print(repr(to_unicode(u'foo')))
 print(repr(to_unicode('foo')))
 
 # Example 4
+print("\nExample 4 : to_str(unicode_or_str) - python 2.7 str is bytes")
 def to_str(unicode_or_str):
     if isinstance(unicode_or_str, unicode):
         value = unicode_or_str.encode('utf-8')
