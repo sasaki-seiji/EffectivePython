@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 1
+print("Example 1 : to_str(bytes_or_str)")
 def to_str(bytes_or_str):
     if isinstance(bytes_or_str, bytes):
         value = bytes_or_str.decode('utf-8')
@@ -33,6 +34,7 @@ print(repr(to_str('foo')))
 
 
 # Example 2
+print("\nExample 2 : to_bytes(bytes_or_str)")
 def to_bytes(bytes_or_str):
     if isinstance(bytes_or_str, str):
         value = bytes_or_str.encode('utf-8')
@@ -45,6 +47,7 @@ print(repr(to_bytes('foo')))
 
 
 # Example 5
+print("\nExample 5 : open str file with \"w\" option")
 try:
     import os
     with open('random.bin', 'w') as f:
@@ -56,5 +59,6 @@ else:
 
 
 # Example 6
+print("\nExample 6 : open bytes file with \"wb\" option")
 with open('random.bin', 'wb') as f:
     f.write(os.urandom(10))
