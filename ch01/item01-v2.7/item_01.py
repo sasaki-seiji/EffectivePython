@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 1
+print("Example 1 - python 2.7")
 import sys
 print(sys.version_info)
 print(sys.version)
