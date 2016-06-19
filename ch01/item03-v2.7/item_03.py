@@ -18,8 +18,9 @@
 import logging
 from pprint import pprint
 from sys import stdout as STDOUT
-
 import sys
+
+
 print(sys.version)
 
 # Example 3
