@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 1
+print("Example 1 : urllib.parse.parse_qs()")
 from urllib.parse import parse_qs
 my_values = parse_qs('red=5&blue=0&green=',
                      keep_blank_values=True)
@@ -28,12 +29,14 @@ print(repr(my_values))
 
 
 # Example 2
+print("\nExample 2 : dict.get()")
 print('Red:     ', my_values.get('red'))
 print('Green:   ', my_values.get('green'))
 print('Opacity: ', my_values.get('opacity'))
 
 
 # Example 3
+print("\nExample 3 : dict.get()[0] or 0")
 # For query string 'red=5&blue=0&green='
 red = my_values.get('red', [''])[0] or 0
 green = my_values.get('green', [''])[0] or 0
@@ -44,6 +47,7 @@ print('Opacity: %r' % opacity)
 
 
 # Example 4
+print("\nExample 4 : int(dict.get()[0] or 0)")
 red = int(my_values.get('red', [''])[0] or 0)
 green = int(my_values.get('green', [''])[0] or 0)
 opacity = int(my_values.get('opacity', [''])[0] or 0)
@@ -53,6 +57,7 @@ print('Opacity: %r' % opacity)
 
 
 # Example 5
+print("\nExample 5 : ... if ... else ...")
 red = my_values.get('red', [''])
 red = int(red[0]) if red[0] else 0
 green = my_values.get('green', [''])
@@ -65,6 +70,7 @@ print('Opacity: %r' % opacity)
 
 
 # Example 6
+print("\nExample 6 : if ... : ... else: ...")
 green = my_values.get('green', [''])
 if green[0]:
     green = int(green[0])
@@ -74,6 +80,7 @@ print('Green:   %r' % green)
 
 
 # Example 7
+print("\nExample 7-8 : separate to helper function")
 def get_first_int(values, key, default=0):
     found = values.get(key, [''])
     if found[0]:
