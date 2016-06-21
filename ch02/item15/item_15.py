@@ -57,6 +57,7 @@ print(numbers)
 
 
 # Example 5
+""" description of sort_priority2 function
 def sort_priority2(numbers, group):
     found = False         # Scope: 'sort_priority2'
     def helper(x):
@@ -66,7 +67,7 @@ def sort_priority2(numbers, group):
         return (1, x)
     numbers.sort(key=helper)
     return found
-
+"""
 
 # Example 6
 def sort_priority3(numbers, group):
