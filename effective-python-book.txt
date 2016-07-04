@@ -72,6 +72,7 @@ java:		openjdk version "1.8.0_91"
 2016.07.03	項目42：functools.wrapsを使って関数デコレータを定義する
 			項目43：contextlibとwith文をtry/finallyの代わりに考える
 			項目44：copyregでpickleを信頼できるようにする
+2016.07.04	項目45：ローカルクロックにはtimeではなくdatetimeを使う
 
 
 ＠＠＠＠＠＠＠＠　コメント　＠＠＠＠＠＠＠＠
