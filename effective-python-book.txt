@@ -73,6 +73,7 @@ java:		openjdk version "1.8.0_91"
 			項目43：contextlibとwith文をtry/finallyの代わりに考える
 			項目44：copyregでpickleを信頼できるようにする
 2016.07.04	項目45：ローカルクロックにはtimeではなくdatetimeを使う
+			項目46：組み込みアルゴリズムとデータ構造を使う
 
 
 ＠＠＠＠＠＠＠＠　コメント　＠＠＠＠＠＠＠＠
