@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 8
+print("Example 8 : import the same named items as separate name")
 from analysis.utils import inspect as analysis_inspect
 from frontend.utils import inspect as frontend_inspect
 

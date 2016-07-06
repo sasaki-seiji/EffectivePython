@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 7
+print("Example 7 : import the same named items from two modules")
 from analysis.utils import inspect
 from frontend.utils import inspect  # Overwrites!
 'frontend' in inspect.__module__

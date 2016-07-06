@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 6
+print("Example 6 : from package.module import item")
 from analysis.utils import log_base2_bucket
 from frontend.utils import stringify
 
