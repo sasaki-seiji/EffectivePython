@@ -21,6 +21,7 @@ from sys import stdout as STDOUT
 
 
 # Example 12
+print("Example 12 : import public api from package")
 from mypackage import *
 
 a = Projectile(1.5, 3)
@@ -34,7 +35,7 @@ try:
     assert False
 except AttributeError:
     pass  # Expected
-    print("AttributeError occurs for maypackage._dot_product")
+    print("AttributeError occurs for mypackage._dot_product")
 
 mypackage.utils._dot_product  # But this is defined
 print("mypackage.utils._dot_product:", mypackage.utils._dot_product)
